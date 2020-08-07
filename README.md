@@ -10,4 +10,4 @@ About 14'000 Google Play reviews are collected using the ```google-play-scraper`
 
 The model is trained for 10 epochs on a GPU (~40 mins), val and train accuracy get better but val loss increases as well from epoch 1. The model is probably making more confident "bad" predictions so the Cross Entropy loss increases, but at the same time is getting better at classifying reviews. This might be due to the small validation set size and should be increased. Final test accuracy of ~84%.
 
-Many thanks to Venelin Valkov's great tutorials!
+Many thanks to Venelin Valkov's great tutorials (https://github.com/curiousily/Getting-Things-Done-with-Pytorch/blob/master/08.sentiment-analysis-with-bert.ipynb)!
